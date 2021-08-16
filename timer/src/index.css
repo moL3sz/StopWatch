@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+body {
+  margin: 0;
+  font-family: "Roboto", monospace;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(62, 76, 78);
+  color: rgb(240, 229, 208);
+}
+
+
+.navbar {
+  font-weight: 100;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  color: #fff;
+  text-shadow: 0px 0px 5px black;
+  background-color:rgb(3, 131, 131);
+
+}
+.title {
+  flex-grow: 1;
+  margin-left: -20px;
+}
+.contact {
+  flex-grow: 1;
+  margin-left: 100px;
+}
+.logo{
+  flex-grow: 3;
+  margin-left: 20px;
+}
+.timerP{
+  text-align: center;
+}
+.timer{
+  width: 60%;
+  height: fit-content;
+  padding-bottom: 30px;
+  background-color: rgb(190, 190, 190);
+  margin: auto;
+  border-radius: 10px;
+  font-weight: 100;
+  color: black;
+}
+.timerCounter{
+  margin: auto;
+  width: fit-content;
+  font-size: 70px;
+  padding-top: 50px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.buttons div{
+  margin-right: 20px;
+  border-radius: 50%;
+  font-weight: 300;
+  width: 65px;
+  text-shadow: 0 1px 1px black;
+  padding: 23px 0 23px 0;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.toggleButton{
+  background-color: rgb(4, 182, 93);
+}
+.toggleButton:active{
+  background-color: rgb(5, 216, 110);
+}
+.splitButton{
+  background-color: rgb(216, 198, 42);
+}
+.splitButton:active{
+  background-color: rgb(248, 224, 7);
+}
+.resetButton{
+  background-color:rgb(160, 160, 160);
+}
+.resetButton:active{
+  background-color:rgb(206, 206, 206);
+}
+.lastsplits{
+  margin-left: 20px;
+}
+hr{
+  width: calc(100% - 10px);
+}
+.splitRow{
+  display: flex;
+  font-weight: 300;
+}
+.splitRow div{
+  flex-grow: 1;
+}
+.splitNumber{
+  color: blue;
+  cursor:pointer;
+}
+.splitNumber:active{
+  color: orange;
+
+}
+.lastsplits .splitRow:nth-child(even){
+  background-color: rgb(165, 165, 165);
+}
+.splitID{
+  flex-basis: 200px;
+}
+.started{
+  background-color: rgb(219, 100, 64);
+}
+.started:active{
+  background-color: rgb(255, 42, 14);
+}
